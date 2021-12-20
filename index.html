@@ -3,74 +3,126 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="assets/img/avatar.png">
-	<title>Principal</title>
+	<title>SideQuest</title>
+<!-- link google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+<!-- link css -->
+	<link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-		<header>
-		<h3>Side Quest</h3>
-		<nav>
-			<ul>
-				<li><a href="index.html">Principal</a></li>
-				<li><a href="pages/articulos.html">Articulos</a></li>
-				<li><a href="pages/reparaciones.html">Reparaciones</a></li>
-				<li><a href="pages/canje.html">Canje</a></li>
-				<li><a href="pages/quienessomos.html">Quienes somos</a></li>
-				<li><a href="pages/ubicacion.html">Ubicacion</a></li>	
-			</ul>
-		
-		</nav>
-	</header>
-	
+<!-- inicio encabezado -->
+<header class="barraNavegacion">
 	<section>
-		<article id="Efemerides semanales">
-			<ol>
-				<li>Lunes</li>
-				<li>Martes</li>
-				<li>Miercoles</li>	
-				<li>Jueves</li>
-				<li>Viernes</li>
-				<li>Sabado</li>
-				<li>Domingo</li>
-			</ol>
-			<h3 >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque, mollitia quos sit aspernatur ratione suscipit officiis repellendus architecto optio eum officia laborum cum dolore possimus perspiciatis molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa inventore, debitis distinctio voluptatem atque tempora corrupti quod optio laborum odit, molestias tenetur, nesciunt dolorum doloremque perferendis ex! Eius, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eligendi tenetur aperiam laudantium nobis repellat quibusdam cum debitis, consectetur dolorem fugit magnam veniam non saepe, reiciendis, tempora nihil quia nisi, harum? Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Magnam cum excepturi ut ipsa veniam suscipit nostrum aut nulla voluptas, blanditiis accusamus soluta temporibus laborum atque maiores amet incidunt placeat maxime.</h3>
-			<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam voluptatem et suscipit quas facere tempora incidunt cupiditate officia accusantium maiores quam officiis quisquam eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis nostrum officia enim laudantium, vitae fugiat, ducimus ab debitis itaque, alias optio voluptate? Laborum nemo odio illo magni illum iure aut! Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nostrum doloremque, aperiam accusamus. Quod, consequatur! Nam distinctio laborum eius officiis, explicabo ipsa, nostrum at aperiam adipisci delectus iusto deserunt repellendus, harum. </h2>
-		</article>
+		<nav id="barraNavegacion">
+			<div class="logo"><img src="/assets/img/avatar.png" alt="SideQuest" height="150px" width="150px" > </div>
+			<div class="search" ><input type="text" name="search" class="search" placeholder="¿A que queres jugar?"</div>
+	<section class=menu>
+		<div class="section section1"><a href="index.html">Principal</a></div>
+		<div class="section section2"><a href="pages/articulos.html">Articulos</a>
+			<!--<ul class=submenu>
+				<li>Nintendo</li>
+				<li>PlayStation</li>
+				<li>Sega</li>
+				<li>Microsoft</li>
+			</ul>--></div>
+		<div class="section section3"><a href="pages/reparaciones.html">Reparaciones</a></div>
+		<div class="section section4"><a href="pages/comocomprar.html">Como comprar</a></div>
+		<div class="section section5"><a href="pages/contactanos.html">Contactanos</a></div>	
 	</section>
-	<section>
-		<article>
-			<table border="2" cellpadding="1" cellspacing="1">
-				<tr>
-					<th>Codigo</th>
-					<th>Nombre</th>
-					<th>Consola</th>
-					<th>Precio</th>
-					<th>Precio contado</th>
-								</tr>
-				<tr>
-					<td>0001</td>
-					<td>Super Mario 64</td>
-					<td>Nintendo 64</td>
-					<td>$5700</td>
-					<td>$5000</td>
-				</tr>
-				<tr>
-					<td>0002</td>
-					<td>Super Mario Kart</td>
-					<td>Super Nintendo</td>
-					<td>$4700</td>
-					<td>$4000</td>
-				</tr>
+	</nav> 
+</section>	
+</header>
+<!-- cierre de fila logo + nav -->
 
-			</table>
-		</article>
-	</section>
-		<footer id="Sidequest -footer">
-		<h3>Side Quest</h3>
-		<h3>Quienes somos</h3>
-		<h3>Contactanos</h3>
-		<h3>Activa notificaciones</h3>
-		<h3>Nuestro Facebook</h3>
-	</footer>
+<!-- inicio parallax -->
+<div class=parallax>
+	<p>A sidequest is an optional section of a video game, and is commonly found in role-playing video games. It is a smaller mission within a larger storyline, and can be used as a means to provide non-linear structures to an otherwise linear plot.As a general rule, the completion of sidequests is not essential for the game to be finished, but can bring various benefits to the player characters</p>
+</div>
+<!-- fin parallax  -->	
+
+<!-- fila de promos de la semana	
+<div class="promo">
+	<table class="tablapromo" border="1">
+			<tr>
+				<th colspan="6">PROMOS DE LA SEMANA!</th>
+			</tr>
+				<th>Codigo</th>
+				<th>Nombre</th>
+				<th>Consola</th>
+				<th>Precio</th>
+				<th>Precio contado</th>
+				<th>Imagen</th>
+				</tr>
+			<tr>
+				<td>0001</td>
+				<td><a href="/pages/articulos.html"> Super Mario </a></td>
+				<td>Nintendo 64</td>
+				<td>$5700</td>
+				<td>$5000</td>
+				<td class="fotojuegos"><img src="/assets/img/supermario64.jpg" alt="SuperMario64"width="150" height="150"> </td>
+			</tr>
+			<tr>
+				<td>0003</td>
+				<td><a href="/pages/articulos.html"> Zelda Link to the Past</a></td>
+				<td>Super Nintendo</td>
+				<td>$10000</td>
+				<td>$9000</td>
+				<td class="fotojuegos"><img src="/assets/img/zeldaLinkToThePast.jpg" width="150" height="150"> </td>
+			</tr>
+		</table>
+</div>
+ -->
+<!-- fila de noticias de la semana -->
+
+<section class="notiEfe">
+	<div class="notEfe not1"><h3 class="titulonoticias">Se acaba de romper el récord de Nintendo Switch vendidas en una semana en Reino Unido</h3>
+		<p>Parece que el Black Friday ha conseguido que Nintendo Switch rompa un nuevo récord en Reino Unido. Al parecer, la semana pasada ha sido la semana en la que más consolas se han vendido hasta la fecha. Esto ha sido gracias al pack de Mario Kart 8 Deluxe + suscripción de 3 meses a Nintendo Switch Online. Por otro lado, se ha confirmado que Xbox Series S fue la segunda consola más vendida en esa semana separada por bastante distancia respecto a Nintendo Switch.</p></div>
+	
+	<div class="notEfe not2"><h3 class="titulonoticias">Nuevas imágenes del próximo arco especial del anime Viajes Pokémon</h3>
+		<p>Traemos nuevamente un interesante mensaje relacionado con una de las franquicias más queridas por parte de los nintenderos. Se trata efectivamente de Pokémon. En el recopilatorio que tenéis abajo, podemos ver un nuevo avance oficial de la trama del anime Viajes Pokémon en Japón. Tras algunos indicios, ahora se muestran contenidos legendarios que se emitirán pronto.</p> </div>
+	<div class="notEfe not3"><h3 class="titulonoticias">La versión física de Grand Theft Auto: The Trilogy – The Definitive Edition se retrasa hasta 2022 en Nintendo Switch</h3>
+		<p>Vuelve a llegarnos un nuevo e interesante anuncio de uno de los juegos más recientes del catálogo de Nintendo Switch. Se trata de Grand Theft Auto: The Trilogy – The Definitive Edition. Como recordaréis, este título está disponible en formato digital, a través de la eShop, desde el pasado 11 de noviembre.
+		En este caso, Rockstar Games ha compartido malas noticias y es que ha anunciado que la versión física del juego se retrasará hasta principios de 2022 en Nintendo Switch. Por lo tanto, los interesados en adquirir el título en dicho formato no podrán disfrutarlo hasta el año que viene (para Xbox Series X, Xbox One y PS4 está previsto que se lance el 17 de diciembre).</p></div>
+	<div class="notEfe Efe"><h2 class=efemerides>EFEMERIDES DICIEMBRE</h2>
+		<ol>
+				<li>2- Lanzamiento de la Nintendo DS en el 2004 en Japón</li>
+				<li>2- Lanzamiento de la Wii por la Nintendo en Japón en el 2006</li>
+				<li>3- Lanzamiento de la PlayStation en el año 1994 por Sony</li>
+				<li>8- Lanzamiento de la Nintendo Wii U en Japón en el 2012</li>
+				<li>9- Lanzamiento de Tekken en el año 1994 (1er videojuego)</li>
+				<li>10- Aniversario de Lucasfilm Limited, LLC</li>
+				<li>12- Lanzamiento de la PSP por Sony en el 2004</li>
+				<li>17- Lanzamiento de PSVITA en el 2011 por Sony</li>
+				<li>18- Lanzamiento de Final Fantasy en el año 1987(1er videojuego)</li>
+				<li>20- Aniversario de Nickelodeon (Primera transmisión, 20 de diciembre de 1996)</li>
+				<li>28- Primera publicación del manga Sailor Moon escrito e ilustrado por Naoko Takeuchi en 1991</li>
+			</ol></div>
+	<div class="notEfe imgEfe"></div>
+	<div class="notEfe imgnot1"></div>
+	<div class="notEfe imgnot2"></div>
+	<div class="notEfe imgnot3"></div>
+	<div class="imgPromo1"></div>
+	<div class="imgPromo2"></div>
+	
+</section>
+</main>
+<!-- banner separador footer
+<section class="parallaxfooter">		
+	<p>Our sidequest is to be able to complete our collection and at the same time help you to complete yours. It's dangerous to go alone! Take this Sidequest with us.</p>
+</section>
+ fin banner separador footer-->
+<!-- inicio de footer --> 
+		<footer id="Sidequest-footer">
+			<div class=footer>
+			<h5> <a href="/index.html">Side Quest</a> </h5>
+			<h5> <a href="/pages/contactanos.html">Contactanos</a></h5>
+			<h5>Activa notificaciones</h5>
+			<h5> <a href="https://twitter.com/nRetegui">Nuestro Twitter</a></h5>
+		</div>
+</footer>
+<!-- fin de footer -->
+ -->
 </body>
 </html>

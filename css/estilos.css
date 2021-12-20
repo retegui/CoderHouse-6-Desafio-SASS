@@ -1,0 +1,216 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing:border-box;
+}
+@media only screen and (min-width: 360px) and (max-width:479px){
+.menu{
+	grid-template-columns: 1fr;
+}
+.notiEfe{
+	grid-template-columns: 1fr 1fr;
+	font-size: 2px;
+	overflow: auto;
+	align-content: center;
+	}
+.imgnot2{	
+	grid-column: 1/2;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width:479px){
+
+}
+
+*/	
+body{
+	background-color: rgb(255, 255, 255);
+}
+.nav{
+	background-color: thistle;
+}
+.logo{
+	display: flex;
+	margin:auto;
+	position: relative;
+	justify-content: center; 
+}
+.search{
+	display: grid;
+	margin: auto;
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.menu{
+	width: 100%;
+	background-color: yellowgreen;
+	display: grid;
+	grid-template-columns:repeat(5,1fr);
+	text-decoration:none;
+	text-align:center;
+	justify-content:center;
+	align-content: center;
+	list-style: none;
+	margin-bottom: 5px; 
+
+	}
+.section{
+	border:solid 2px black;
+	justify-content: center;
+	align-content: center;
+}
+
+/* parallax */
+.parallax {
+	color: white;
+	background-image: url("../assets/img/fondomario.jpg");
+  	height: 200px;
+	width: 1fr;
+  	background-attachment: fixed;
+  	background-position:center;
+  	background-repeat: repeat;
+  	background-size:contain;
+	border-color: black;
+	border-style: dashed;
+	font-size: auto;
+	font-family:'Roboto', sans-serif;
+	text-align:justify;
+	text-underline-position:auto;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+	padding: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	position:relative; 
+	flex-wrap: wrap;
+	overflow:auto;
+		}
+/* fin parallaz */
+/*.promo{
+	font-size: 25px;
+	display: grid;
+	position: relative;
+	justify-content: center; 
+	margin-bottom: 30px;
+	border-width:thin;
+	}
+	*/
+/* noticias */
+
+.notiEfe{
+	height: 1fr;
+	width: 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+	grid-template-areas: 
+	"imgPromo1 imgnot3 not2 not2"
+	"not1 not3 imgnot2  imgEfe"
+	"not1 not3 Efe Efe"
+	"imgnot1 imgPromo2 Efe Efe";
+	border:solid 10px white;
+	border-spacing: 50px;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	font-size: 20px;
+	align-content: center;
+		}
+.notEfe{
+	border-style:double ;
+	border-top-left-radius:  45px;
+	border-top-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	padding: 5px;
+	margin: 5px;
+	width: 100%;
+	}
+.not1{
+	grid-area: not1;
+	background-color: coral;
+}
+.not2{
+	grid-area: not2;
+	background-color: coral;
+}
+.not3{
+	grid-area: not3;
+	background-color: coral;
+}
+.Efe{
+	grid-area: Efe;
+	background-color: rgb(212, 164, 146);
+}
+.imgnot1{
+	grid-area: imgnot1;
+	background-image: url(/assets/img/noticia1.jpg);
+	background-size:90%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.imgnot2{
+	grid-area: imgnot2;
+	background-image: url(/assets/img/noticia2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.imgnot3{
+	grid-area: imgnot3;
+	background-image: url(/assets/img/noticia3.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.imgEfe{
+	grid-area: imgEfe;
+	background-image: url(/assets/img/efemeride.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(236, 188, 171);
+}
+.imgPromo1{
+	grid-area: imgPromo1 ;
+	background-image: url(/assets/img/supermario64.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+.imgPromo2{
+	grid-area: imgPromo2;
+	background-image: url(/assets/img/zeldaLinkToThePast.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+} 
+ol{
+	list-style: none;
+}
+.promocionSemanal {		
+	color: white;
+	background-color: green;
+}
+.videosReparacion{
+	display: flex;
+	justify-content: center;
+}
+
+/* parallax */
+
+.footer{
+	margin-left: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: brown;
+	margin-bottom: 75px	;
+}
