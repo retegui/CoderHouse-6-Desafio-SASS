@@ -46,7 +46,6 @@
 .parallax {
 	color: white;
 	background-image: url("/assets/img/fondomario.jpg");
-
   	background-attachment: fixed;
   	background-position:center;
   	background-repeat: repeat;
