@@ -3,6 +3,27 @@
 	padding: 0;
 	box-sizing:border-box;
 }
+/* Barra navegacion y menu */
+.nav{
+	background-color: thistle;
+}
+.logo{
+	display: flex;
+	margin:auto;
+	position: relative;
+	justify-content: center; 
+}
+.search{
+	display: grid;
+	margin: auto;
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+/* Fin barra de navegacion y menu*/	
+
+/* Noticias y efemerides */
 .imgNotiEfe{
 	align-content: center;
 	justify-content: center;
@@ -19,3 +40,33 @@
     text-align: center;
 	align-content: center;
 }
+/*  Fin de Noticias y efemerides */
+
+/* Parallax Footer */
+.parallax {
+	color: white;
+	background-image: url("/assets/img/fondomario.jpg");
+
+  	background-attachment: fixed;
+  	background-position:center;
+  	background-repeat: repeat;
+  	background-size:contain;
+	border-color: black;
+	border-style: dashed;
+	font-size: auto;
+	font-family:'Roboto', sans-serif;
+	text-align:justify;
+	text-underline-position:auto;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+	padding: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-size:	1rem;
+	position:relative; 
+	flex-wrap: wrap;
+	overflow:auto;
+		}
+/* Fin de Parallax Footer */
