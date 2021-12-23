@@ -2,32 +2,20 @@
 	margin: 0; 
 	padding: 0;
 	box-sizing:border-box;
-	
-}
+	}
 /* Barra navegacion y menu */
-.nav{
-	background-color: thistle;
-}
 .logo{
 	display: flex;
 	margin:auto;
 	position: relative;
-	justify-content: center; 
-}
-.search{
-	display: grid;
-	margin: auto;
-	position: relative;
-	margin-bottom: 5px;
-	margin-top: 5px;
-}
-
+	justify-content: center; }
 /* Fin barra de navegacion y menu*/	
 
 /* Noticias y efemerides */
 
 .notiEfe{
-    background-color: coral;
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,212,255,1) 100%);
     border-style:double ;
 	border-top-left-radius:  45px;
 	border-top-right-radius: 45px;
@@ -41,9 +29,9 @@
 	color: white;
 	background-image: url("/assets/img/fondomario.jpg");
   	background-attachment: fixed;
-  	background-position:center;
-  	background-repeat: repeat;
-  	background-size:contain;
+  	background-position:bottom;
+  	background-repeat:no-repeat;
+  	background-size:cover;
 	border-color: black;
 	border-style: dashed;
 	font-size: auto;
@@ -53,7 +41,7 @@
 	display:flex;
     justify-content:center;
     align-items:center;
-	padding: 200px;
+	padding: 100px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 20px;

@@ -13,32 +13,49 @@
 	<title>SideQuest</title>
 </head>
 <body>
-<!-- inicio encabezado -->
-	<header class="barraNavegacion">
-	<div>
-		<nav id="barraNavegacion">
-		<h1 class="logo">
-			<img src="../assets/img/avatar.png" alt="SideQuest" height="150px" width="150px">
-		</h1>
-		<br>
-		<ul class="menu">
-			<li><a href="../index.html">Principal</a></li>
-			<li><a href="../pages/articulos.html">Articulos</a>
-				<ul>
-					<li>Nintendo</li>
-					<li>PlayStation</li>
-					<li>Sega</li>
-					<li>Microsoft</li>
+<!--Logo y barra de navegacion-->
+<header class="barraNavegacion">
+	<div class="logo"><img src="/assets/img/avatar.png" alt="SideQuest" height="150px" width="150px" > </div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="/index.html">Inicio</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item dropdown">
+				<a class="nav-link active dropdown-toggle" href="/pages/articulos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Articulos
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="/pages/articulos.html" >Nintendo</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="/pages/articulos.html" >Playstation</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="/pages/articulos.html" >Sega</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="/pages/articulos.html" >Microsoft</a></li>
 				</ul>
-			</li>
-			<li><a href="../pages/reparaciones.html">Reparaciones</a></li>
-			<li><a href="../pages/contactanos.html">Contactanos</a></li>
-			<li><a href="../pages/ubicacion.html">Ubicacion</a></li>	
-		</ul>
-	</nav> 
-	</div>
-		
-			</header><br><br>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="/pages/reparaciones.html">Reparaciones</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="/pages/ubicacion.html">Ubicacion</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="/pages/contactanos.html">Contactanos</a>
+			  </li>
+			</ul>
+			<form class="d-flex">
+			  <input class="form-control me-2" type="search" placeholder="¿A que queres jugar?" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Buscar</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+<!--Fin del Logo y barra de navegacion-->
 	<section>
 		<article>
 			<table>
