@@ -2,6 +2,7 @@
 	margin: 0; 
 	padding: 0;
 	box-sizing:border-box;
+	
 }
 /* Barra navegacion y menu */
 .nav{
@@ -24,11 +25,6 @@
 /* Fin barra de navegacion y menu*/	
 
 /* Noticias y efemerides */
-.imgNotiEfe{
-	align-content: center;
-	justify-content: center;
-	border-image: round;
-}
 
 .notiEfe{
     background-color: coral;
@@ -37,9 +33,7 @@
 	border-top-right-radius: 45px;
 	border-bottom-left-radius: 45px;
 	border-bottom-right-radius: 45px;
-    text-align: center;
-	align-content: center;
-}
+   }
 /*  Fin de Noticias y efemerides */
 
 /* Parallax Footer */

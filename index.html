@@ -13,41 +13,72 @@
 	<title>SideQuest</title>
 </head>
 <body>
-<!--Header-->
+<!--Logo y barra de navegacion-->
 <header class="barraNavegacion">
-	<section>
-		<nav id="barraNavegacion">
 			<div class="logo"><img src="/assets/img/avatar.png" alt="SideQuest" height="150px" width="150px" > </div>
-			<div class="search" ><input type="text" name="search" class="search" placeholder="¿A que queres jugar?"</div>
-	<section class=menu>
-		<div class="section section1"><a href="index.html">Principal</a></div>
-		<div class="section section2"><a href="pages/articulos.html">Articulos</a></div>
-		<div class="section section3"><a href="pages/reparaciones.html">Reparaciones</a></div>
-		<div class="section section4"><a href="pages/ubicacion.html">Ubicacion</a></div>
-		<div class="section section5"><a href="pages/contactanos.html">Contactanos</a></div>	
-<!--Fin del Header-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">Inicio</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Articulos
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <li><a class="dropdown-item" href="#">Nintendo</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Playstation</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Sega</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Microsoft</a></li>
+						</ul>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Reparaciones</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Ubicacion</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active">Contactanos</a>
+					  </li>
+					</ul>
+					<form class="d-flex">
+					  <input class="form-control me-2" type="search" placeholder="¿A que queres jugar?" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+<!--Fin del Logo y barra de navegacion-->
 
 
 <!--Seccion notas y efemerides-->
-<div class="container-fluid">
+<div class="container-fluid text-center">
 	<div class="row">
-		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/supermario64.jpg" alt="supermario" class="img-fluid"></div>
+		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/supermario64.jpg" alt="supermario" class="img-fluid rounded"></div>
 		<div class="notiEfe col-lg-6 col-md-7 col-sm-12">
-			<h3 class="lead">La versión física de Grand Theft Auto: The Trilogy – The Definitive Edition se retrasa hasta 2022 en Nintendo Switch</h3>
-			<p>Vuelve a llegarnos un nuevo e interesante anuncio de uno de los juegos más recientes del catálogo de Nintendo Switch. Se trata de Grand Theft Auto: The Trilogy – The Definitive Edition. Como recordaréis, este título está disponible en formato digital, a través de la eShop, desde el pasado 11 de noviembre.
-			En este caso, Rockstar Games ha compartido malas noticias y es que ha anunciado que la versión física del juego se retrasará hasta principios de 2022 en Nintendo Switch. Por lo tanto, los interesados en adquirir el título en dicho formato no podrán disfrutarlo hasta el año que viene (para Xbox Series X, Xbox One y PS4 está previsto que se lance el 17 de diciembre).</p></div>	
-		<div class="imgNotiEfe col-lg-3 col-md-5 col-sm-12"><img src="/assets/img/noticia2.jpeg" alt="gtatrilogy" class="img-fluid"></div>		
+			<h1>La versión física de Grand Theft Auto: The Trilogy – The Definitive Edition se retrasa hasta 2022 en Nintendo Switch</h1>
+			<h3>Vuelve a llegarnos un nuevo e interesante anuncio de uno de los juegos más recientes del catálogo de Nintendo Switch. Se trata de Grand Theft Auto: The Trilogy – The Definitive Edition. Como recordaréis, este título está disponible en formato digital, a través de la eShop, desde el pasado 11 de noviembre.
+			En este caso, Rockstar Games ha compartido malas noticias y es que ha anunciado que la versión física del juego se retrasará hasta principios de 2022 en Nintendo Switch. Por lo tanto, los interesados en adquirir el título en dicho formato no podrán disfrutarlo hasta el año que viene (para Xbox Series X, Xbox One y PS4 está previsto que se lance el 17 de diciembre).</h3></div>	
+		<div class="imgNotiEfe col-lg-3 col-md-5 col-sm-12"><img src="/assets/img/noticia2.jpeg" alt="gtatrilogy" class="img-fluid rounded"></div>		
 		<div class="notiEfe col-lg-3 col-md-12 col-sm-12">		
-			<h3 class="lead">Se acaba de romper el récord de Nintendo Switch vendidas en una semana en Reino Unido</h3>
-			<p>Parece que el Black Friday ha conseguido que Nintendo Switch rompa un nuevo récord en Reino Unido. Al parecer, la semana pasada ha sido la semana en la que más consolas se han vendido hasta la fecha. Esto ha sido gracias al pack de Mario Kart 8 Deluxe + suscripción de 3 meses a Nintendo Switch Online. Por otro lado, se ha confirmado que Xbox Series S fue la segunda consola más vendida en esa semana separada por bastante distancia respecto a Nintendo Switch.</p></div>
-		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/noticia1.jpg" alt="switch" class="img-fluid"></div>	
-		<div class="notiEfe col-lg-3 col-md-8 col-sm-12"><h3 class="lead">Nuevas imágenes del próximo arco especial del anime Viajes Pokémon</h3>
-			<p>Traemos nuevamente un interesante mensaje relacionado con una de las franquicias más queridas por parte de los nintenderos. Se trata efectivamente de Pokémon. En el recopilatorio que tenéis abajo, podemos ver un nuevo avance oficial de la trama del anime Viajes Pokémon en Japón. Tras algunos indicios, ahora se muestran contenidos legendarios que se emitirán pronto.</p> </div>				
-		<div class="imgNotiEfe col-lg-3 col-md-4 col-sm-12"><img src="/assets/img/noticia3.jpg" alt="pokemon" class="img-fluid"></div>
-		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/zeldaLinkToThePast.jpg" alt="zeldalinktothepast"  class="img-fluid"></div>
+			<h1>Se acaba de romper el récord de Nintendo Switch vendidas en una semana en Reino Unido</h1>
+			<h3>Parece que el Black Friday ha conseguido que Nintendo Switch rompa un nuevo récord en Reino Unido. Al parecer, la semana pasada ha sido la semana en la que más consolas se han vendido hasta la fecha. Esto ha sido gracias al pack de Mario Kart 8 Deluxe + suscripción de 3 meses a Nintendo Switch Online. Por otro lado, se ha confirmado que Xbox Series S fue la segunda consola más vendida en esa semana separada por bastante distancia respecto a Nintendo Switch.</h3></div>
+		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/noticia1.jpg" alt="switch" class="img-fluid rounded"></div>	
+		<div class="notiEfe col-lg-3 col-md-8 col-sm-12">
+			<h1>Nuevas imágenes del próximo arco especial del anime Viajes Pokémon</h1>
+			<h3>Traemos nuevamente un interesante mensaje relacionado con una de las franquicias más queridas por parte de los nintenderos. Se trata efectivamente de Pokémon. En el recopilatorio que tenéis abajo, podemos ver un nuevo avance oficial de la trama del anime Viajes Pokémon en Japón. Tras algunos indicios, ahora se muestran contenidos legendarios que se emitirán pronto.</h3> </div>				
+		<div class="imgNotiEfe col-lg-3 col-md-4 col-sm-12"><img src="/assets/img/noticia3.jpg" alt="pokemon" class="img-fluid rounded"></div>
+		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/zeldaLinkToThePast.jpg" alt="zeldalinktothepast"  class="img-fluid rounded"></div>
 		<div class="container notiEfe col-lg-6 col-md-12 col-sm-12">
-			<h2 class="lead">EFEMERIDES DICIEMBRE</h2>
-			<ol>
+			<h1>EFEMERIDES DICIEMBRE</h1>
+			<h3><ol>
 				<li>2- Lanzamiento de la Nintendo DS en el 2004 en Japón</li>
 				<li>2- Lanzamiento de la Wii por la Nintendo en Japón en el 2006</li>
 				<li>3- Lanzamiento de la PlayStation en el año 1994 por Sony</li>
@@ -59,9 +90,9 @@
 				<li>18- Lanzamiento de Final Fantasy en el año 1987(1er videojuego)</li>
 				<li>20- Aniversario de Nickelodeon (Primera transmisión, 20 de diciembre de 1996)</li>
 				<li>28- Primera publicación del manga Sailor Moon escrito e ilustrado por Naoko Takeuchi en 1991</li>
-			</ol>
+			</ol></h3>
 		</div>
-		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/efemeride.jpg" alt="nintendods" class="img-fluid"></div>	
+		<div class="imgNotiEfe col-lg-3 col-md-12 col-sm-12"><img src="/assets/img/efemeride.jpg" alt="nintendods" class="img-fluid rounded"></div>	
 	</div>	
 </div>				
 <!--Footer-->	
