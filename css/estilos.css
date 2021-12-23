@@ -27,7 +27,7 @@
 /* Parallax Footer */
 .parallax {
 	color: white;
-	background-image: url("/assets/img/fondomario.jpg");
+	background-image: url("../assets/img/fondomario.jpg");
   	background-attachment: fixed;
   	background-position:bottom;
   	background-repeat:no-repeat;
