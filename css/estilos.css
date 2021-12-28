@@ -2,7 +2,15 @@
 	margin: 0; 
 	padding: 0;
 	box-sizing:border-box;
+	
 	}
+/* Body */
+.body{
+	background: rgb(208,212,211);
+	background: linear-gradient(0deg, rgba(208,212,211,1) 0%, rgba(255,253,253,1) 50%);
+}
+
+	
 /* Barra navegacion y menu */
 .logo{
 	display: flex;
@@ -10,6 +18,11 @@
 	position: relative;
 	justify-content: center; }
 /* Fin barra de navegacion y menu*/	
+/* Carrousel*/
+
+.carousel-item{
+		justify-content: center;
+    }
 
 /* Noticias y efemerides */
 
